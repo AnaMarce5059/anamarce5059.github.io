@@ -4,7 +4,7 @@
 
 Puedes ver mi CV en el siguiente enlace:
 
-🔗 **[Ver mi CV en línea]([https://anamarce5059.github.io/](https://anamarce5059.github.io/))**
+🔗 **[Ver mi CV en línea]([https://anamarce5059.github.io/](https://anamarce5059.github.io/)**
 
 ## 📖 **Descripción**
 
