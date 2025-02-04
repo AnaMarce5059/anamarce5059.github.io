@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Analía Romano</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        /* Configuración General */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #0D1117;
+            color: #E6EDF3;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: #161B22;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+            transition: 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        /* Perfil */
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 3px solid #58A6FF;
+            margin-bottom: 15px;
+        }
+
+        /* Títulos */
+        h1, h2 {
+            text-align: center;
+            color: #58A6FF;
+        }
+        h2 {
+            border-bottom: 2px solid #30363D;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        /* Secciones */
+        .section {
+            text-align: left;
+            margin-top: 25px;
+            padding: 15px;
+            background: #21262D;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(255, 255, 255, 0.05);
+        }
+
+        /* Habilidades */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+        }
+        .skill {
+            background: #30363D;
+            color: white;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: transform 0.2s, background 0.3s;
+        }
+        .skill:hover {
+            background: #58A6FF;
+            transform: scale(1.1);
+        }
+
+        /* Botones */
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 25px;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            background: #58A6FF;
+            color: white;
+            padding: 12px 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s ease-in-out, transform 0.2s;
+        }
+        .btn:hover {
+            background: #1F6FEB;
+            transform: scale(1.1);
+        }
+        .btn i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="profile">
+        <img src="Foto perfil.png" alt="Foto de Analía Romano">
+        <h1>Analía Romano</h1>
+        <p class="contacto">
+            <strong>Email:</strong> <a href="mailto:anamarceromano@gmail.com" style="color: #58A6FF;">anamarceromano@gmail.com</a> | 
+            <strong>Teléfono:</strong> +54 (2323) 525241
+        </p>
+    </div>
+    
+    <div class="section">
+        <h2>Sobre mí</h2>
+        <p>📈 Soy <strong>Data Scientist y Data Analyst</strong> con una sólida formación en matemáticas, estadística y análisis de datos. 
+            Mi experiencia como profesora de Matemática y Data Analytics me permite transmitir conocimientos complejos de forma clara y efectiva.</p>
+    
+        <p>🌏 Soy de <strong>Argentina</strong>, nacida en la Pcia de Río Negro, y actualmente vivo en la Pcia de Buenos Aires.</p>
+    
+        <p>🎓 Además de mi formación en Data Scientist, disfruto de la <strong>docencia</strong>, donde utilizo técnicas innovadoras para hacer accesibles los conceptos de análisis y modelado de datos.</p>
+    
+        <p>📈 Actualmente, estoy enfocada en perfeccionar mis habilidades en <strong>ingeniería de datos</strong>, trabajando con herramientas avanzadas como <strong>Hadoop y Spark</strong> para crear soluciones escalables.</p>
+    
+        <p>🍵 Apasionada por la lectura, especialmente por las <strong>novelas de Agatha Christie</strong>. Disfruto de la forma en que personajes como <strong>Hércules Poirot</strong> resuelven misterios con ingenio y lógica.</p>
+    
+        <p>📚 Además de los datos, me encanta la literatura, especialmente las novelas de Agatha Christie. Admiro la lógica y el ingenio de Hércules Poirot, y me gusta aplicar ese mismo razonamiento analítico en mi trabajo.</p>
+    
+    <div class="section">
+        <h2>Experiencia</h2>
+        <ul>
+            <li><strong>Profesora de Data Analytics</strong> - Coderhouse (Noviembre 2024 - Presente)</li>
+            <li><strong>Data Analyst / Data Scientist</strong> - GetOnBoard (Febrero 2023 - Presente)</li>
+            <li><strong>Tutora de Data Analytics</strong> - Coderhouse (Febrero 2023 - Noviembre 2024)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Habilidades</h2>
+        <div class="skills">
+            <span class="skill">🐍 Python</span>
+            <span class="skill">SQL</span>
+            <span class="skill">📊Power BI</span>
+            <span class="skill">📉Tableau</span>
+            <span class="skill">📦Google Cloud</span>
+            <span class="skill">📦AWS</span>
+            <span class="skill">📶Machine Learning</span>
+            <span class="skill">🔧ETL</span>
+            <span class="skill">Docker</span>
+            <span class="skill">🐙GitHub</span>
+            <span class="skill">📓 Jupyterb</span>
+            <span class="skill">☁️ Google Colab</span>
+            <span class="skill">🖥️ Visual Studio Cod</span>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <a href="https://drive.google.com/file/d/1EcKw8ZyXpnBwzpFHR9AdAHndzeP-TlYP/view?usp=sharing" class="btn" download>
+            <i class="fas fa-file-download"></i> Descargar CV
+        </a>
+        <a href="https://github.com/AnaMarce5059" class="btn" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://linkedin.com/in/ana-marce-romano-119b54254" class="btn" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
+
+
