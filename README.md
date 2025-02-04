@@ -4,7 +4,7 @@
 
 Puedes ver mi CV en el siguiente enlace:
 
-🔗 **[Ver mi CV en línea]([https://anamarce5059.github.io/](https://anamarce5059.github.io/)**
+🔗 **Ver mi CV** [Ver mi CV en línea](https://anamarce5059.github.io/)
 
 ## 📖 **Descripción**
 
@@ -33,5 +33,3 @@ Si deseas contribuir con mejoras o sugerencias, puedes abrir un **issue** o real
 📧 **Email:** [anamarceromano@gmail.com](mailto:anamarceromano@gmail.com)  
 📌 **LinkedIn:** [Perfil de LinkedIn](https://www.linkedin.com/in/ana-marce-romano-119b54254/)  
 💻 **GitHub:** [Perfil de GitHub](https://github.com/AnaMarce5059)
-
-📌 **Ver mi CV en línea** [Ver mi CV en línea](https://anamarce5059.github.io/)
