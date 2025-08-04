@@ -64,6 +64,13 @@
             border-radius: 12px;
             margin-top: 25px;
             border-left: 5px solid #568C87;
+            transition: all 0.3s ease;
+        }
+
+        .section:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+            background: #ffffff;
         }
 
         .skills {
@@ -115,6 +122,10 @@
         .btn i {
             margin-right: 8px;
         }
+
+        .section ul {
+            padding-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -163,6 +174,22 @@
             </div>
         </div>
 
+        <div class="section">
+            <h2>Proyectos Destacados</h2>
+            <ul>
+                <li>
+                    <strong>📊 Análisis Comercial de Nike (2020-2024):</strong>
+                    <a href="https://github.com/AnaMarce5059/Nike_EEUU" target="_blank" style="color: #568C87;">Ver en GitHub</a><br>
+                    Dashboard en Power BI con visualización por trimestres, productos y márgenes de venta.
+                </li>
+                <li>
+                    <strong>💼 Proyecto de Deserción Laboral:</strong>
+                    <a href="https://github.com/AnaMarce5059/HR-Employee-Attrition" target="_blank" style="color: #568C87;">Ver en GitHub</a><br>
+                    Análisis predictivo con Machine Learning para identificar factores de abandono laboral.
+                </li>
+            </ul>
+        </div>
+
         <div class="buttons">
             <a href="https://drive.google.com/file/d/11jWSiVkor5D9B8pUilkSgmkz9u-5ce6R/view?usp=sharing" class="btn" download>
                 <i class="fas fa-file-download"></i> Descargar CV
@@ -177,6 +204,7 @@
     </div>
 </body>
 </html>
+
 
 
 
